@@ -14,8 +14,8 @@
         }
 
         header {
-            background-color: rgb(87, 63, 28);
-            color: #fff;
+            background-color: rgb(245, 206, 77);
+            color: black;
             padding: 10px;
             text-align: right;
             font-size: 24px;
@@ -28,9 +28,9 @@
         }
 
         header h1 {
-            margin: 0 auto; /* This centers the h1 horizontally */
-            text-align: center; /* This ensures the text within the h1 is centered */
-            animation: scaleUp 1s ease-in-out; /* Adding animation */
+            margin: 0 auto; 
+            text-align: center; 
+            animation: scaleUp 1s ease-in-out; 
         }
         @keyframes scaleUp {
             0% {
@@ -62,7 +62,7 @@
             padding: 20px 12px;
             box-sizing: border-box;
             transition: 0.5s;
-            opacity: 0; /* Initially set opacity to 0 */
+            opacity: 0; 
         }
 
         .row {
@@ -73,19 +73,18 @@
             align-content: flex-start;
         }
 
-        /* Animation for .design-col */
         .design-col {
-            animation: fadeInDesignCol 1s forwards; /* Apply fadeInDesignCol animation */
+            animation: fadeInDesignCol 1s forwards; 
         }
 
         @keyframes fadeInDesignCol {
             from {
-                opacity: 0; /* Starting opacity */
-                transform: translateY(20px); /* Starting position */
+                opacity: 0; 
+                transform: translateY(20px); 
             }
             to {
-                opacity: 1; /* Ending opacity */
-                transform: translateY(0); /* Ending position */
+                opacity: 1; 
+                transform: translateY(0); 
             }
         }
 
@@ -100,8 +99,12 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: black;
             text-decoration: none;
+            transition: color 0.3s; 
+        }
+        nav ul li a:hover {
+            color: #ffc107;
         }
 
         section {
@@ -119,8 +122,8 @@
         }
 
         footer {
-            background-color: rgb(87, 63, 28);
-            color: #fff;
+            background-color: rgb(245, 206, 77);
+            color:black;
             padding: 20px;
             text-align: center;
         }
@@ -131,7 +134,7 @@
 <header>
     <h1>Khabo's Happy Hen Farm</h1>
     <nav>
-        <a href="index.html"><img src="images/chicken (8).jpg" width="90" height="60"></a>
+        <a href="index.html"><img src="images/flat-design-rooster-illustration_23-2149542057.jpg" width="90" height="80"></a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>

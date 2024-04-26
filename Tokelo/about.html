@@ -14,8 +14,8 @@
         }
 
         header {
-            background-color: rgb(87, 63, 28); /* Brown */
-            color: #fff;
+            background-color: rgb(245, 206, 77); 
+            color: black;
             padding: 10px;
             text-align: right;
             font-size: 24px;
@@ -28,10 +28,11 @@
         }
 
         header h1 {
-            margin: 0 auto; /* This centers the h1 horizontally */
-            text-align: center; /* This ensures the text within the h1 is centered */
-            animation: scaleUp 1s ease-in-out; /* Adding animation */
+            margin: 0 auto; 
+            text-align: center; 
+            animation: scaleUp 1s ease-in-out; 
         }
+
         @keyframes scaleUp {
             0% {
                 transform: scale(0.8);
@@ -63,12 +64,26 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: black;
             text-decoration: none;
+            transition: color 0.3s; 
+        }
+        nav ul li a:hover {
+            color: #ffc107;
         }
 
         section {
             padding: 20px;
+            animation: slideUp 1s ease-in-out; 
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0%);
+            }
         }
 
         section h2 {
@@ -82,12 +97,12 @@
         }
 
         section p {
-            color: #333; /* Change paragraph color for better readability */
+            color: #333; 
         }
 
         footer {
-            background-color: rgb(87, 63, 28);
-            color: #fff;
+            background-color: rgb(245, 206, 77);
+            color: black;
             padding: 20px;
             text-align: center;
         }
@@ -97,7 +112,7 @@
     <header>
         <h1>Khabo's Happy Hen Farm</h1>
         <nav>
-            <a href="index.html"><img src="images/chicken (8).jpg" width="90" height="60"></a>
+            <a href="index.html"><img src="images/flat-design-rooster-illustration_23-2149542057.jpg" width="90" height="70"></a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
